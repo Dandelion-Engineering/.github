@@ -22,7 +22,7 @@ Each project investigates one question and reports what it found, alongside the 
 
 ## How the work is run
 
-- [**Collaboration Station Research**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research) — the framework every project above runs inside. No software to install: a folder structure and instructions in ordinary English.
+- [**Collaboration Station Research**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research) — the framework every project above runs inside. Mostly a folder structure and instructions in ordinary English, plus two small utilities that need Python 3 and Git.
 
 Two smaller repositories show the collaboration pattern applied to scientific data pipelines, and are demonstrations rather than research projects: [AccuSleePy](https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo) and [vibration batch analysis](https://github.com/Dandelion-Engineering/Vibration-Batch-Analysis-Demo).
 
