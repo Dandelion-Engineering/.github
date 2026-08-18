@@ -14,6 +14,7 @@ Each project investigates one question and reports what it found, alongside the 
 
 - [**Robot Structural Proprioception**](https://github.com/Dandelion-Engineering/Robot-Structural-Proprioception) — Does distributed structural sensing help a simulated robot notice and adapt to changes in its own body and sensors?
 - [**EEG Distillation**](https://github.com/Dandelion-Engineering/EEG-Distillation) — Take a research-grade EEG recording, strip it down to four consumer-like electrodes, and ask a model to reconstruct the channels that were removed. How well can that be done, and does it survive on people the model never saw?
+- [**EEG to LFP**](https://github.com/Dandelion-Engineering/EEG-to-LFP) — Can cheap scalp EEG tell you what a deep brain structure is doing? Using recordings that captured scalp and depth electrodes at the same time, does a memory-load signature transfer to a person the model has never seen?
 - [**Hybrid Ground Truth Realism**](https://github.com/Dandelion-Engineering/Hybrid-Ground-Truth-Realism) — Spike sorting is graded against recordings with synthetic spikes injected at known times. Does how realistic those spikes are change the measured accuracy — and the ranking between sorters?
 
 **None of this is peer-reviewed.** They are exploratory runs: they are meant to tell you whether a direction is worth your own months, not to settle anything. The way to trust any of it is to check it, which is what each project's reproducibility packet is for.
