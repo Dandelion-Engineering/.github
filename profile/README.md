@@ -8,22 +8,24 @@ We publish the work, including when it fails. Negative results, dead ends, and o
 
 ---
 
-## The research
+## Published research records
 
-Each project investigates one question and reports what it found, alongside the scripts and instructions needed to run it again. All of it is self-directed — no client, no customer, no commission. Each project's own page says that AI agents did the work. The projects run inside a documented framework. Follow a link for where that project currently stands; this page deliberately does not summarise it.
+Each repository below is the public record of one self-directed research question — no client, no customer, no commission. Some reached an answer; two were deliberately stopped before they did. Each repository states its own current status, the role AI agents played, and what evidence or reproducibility material is available.
 
-- [**Robot Structural Proprioception**](https://github.com/Dandelion-Engineering/Robot-Structural-Proprioception) — Does distributed structural sensing help a simulated robot notice and adapt to changes in its own body and sensors?
-- [**EEG Distillation**](https://github.com/Dandelion-Engineering/EEG-Distillation) — Take a research-grade EEG recording, strip it down to four consumer-like electrodes, and ask a model to reconstruct the channels that were removed. How well can that be done, and does it survive on people the model never saw?
-- [**EEG to LFP**](https://github.com/Dandelion-Engineering/EEG-to-LFP) — Can cheap scalp EEG tell you what a deep brain structure is doing? Using recordings that captured scalp and depth electrodes at the same time, does a memory-load signature transfer to a person the model has never seen?
-- [**Hybrid Ground Truth Realism**](https://github.com/Dandelion-Engineering/Hybrid-Ground-Truth-Realism) — Spike sorting is graded against recordings with synthetic spikes injected at known times. Does how realistic those spikes are change the measured accuracy — and the ranking between sorters?
+- [**EEG Distillation**](https://github.com/Dandelion-Engineering/EEG-Distillation) — completed exploratory research on reconstructing research-grade EEG channels from a four-electrode, consumer-like input, including transfer to people the model had not seen.
+- [**EEG to LFP**](https://github.com/Dandelion-Engineering/EEG-to-LFP) — a completed, pre-registered negative result on whether scalp EEG carries a subject-transferable signature of memory load in the medial temporal lobe.
+- [**Robot Structural Proprioception**](https://github.com/Dandelion-Engineering/Robot-Structural-Proprioception) — ended on August 23, 2026 before answering its research question. The repository is preserved as a record of why the first-generation framework stopped converting effort into evidence.
+- [**Hybrid Ground Truth Realism**](https://github.com/Dandelion-Engineering/Hybrid-Ground-Truth-Realism) — ended on August 23, 2026 before any measurement was taken, for the same framework-level reason. Its planning and corrections remain public.
 
-**None of this is peer-reviewed.** They are exploratory runs: they are meant to tell you whether a direction is worth your own months, not to settle anything. The way to trust any of it is to check it, which is what each project's reproducibility packet is for.
+**None of this is peer-reviewed.** The completed studies are exploratory results, not settled conclusions, and the stopped projects do not answer their original questions. The way to trust any result is to check it, which is what each completed project's reproducibility material is for.
 
 ---
 
 ## How the work is run
 
-- [**Collaboration Station Research**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research) — the framework every project above runs inside. Mostly a folder structure and instructions in ordinary English, plus two small utilities that need Python 3 and Git.
+- [**Collaboration Station Research 2.0**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research-2.0) — the current template for exploratory scientific research by a human director and AI agents. It was rebuilt for models that already verify their own work, without mandatory review cycles or approval gates. Early testing is promising for forward motion; reliability across projects is not yet established.
+- [**Collaboration Station 2.0**](https://github.com/Dandelion-Engineering/Collaboration-Station-2.0) — the general-purpose framework underneath Research 2.0, for long-running computer-based projects with durable context and lightweight coordination. Also in early testing.
+- [**Collaboration Station Research**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research) — the superseded first-generation research framework, preserved so its history and the reason for the 2.0 redesign remain inspectable.
 
 Two smaller repositories show the collaboration pattern applied to scientific data pipelines, and are demonstrations rather than research projects: [AccuSleePy](https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo) and [vibration batch analysis](https://github.com/Dandelion-Engineering/Vibration-Batch-Analysis-Demo).
 
