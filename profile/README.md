@@ -6,9 +6,11 @@ The approach is still evolving. Early projects gave AI agents considerable respo
 
 The public repositories preserve that learning process, including unfinished projects, limitations, and approaches that did not work as hoped.
 
+## Projects
+
 **[LLMs in Robotics: A Snapshot](https://github.com/Dandelion-Engineering/LLMs-in-Robotics-A-Snapshot)**: An AI agent controls a simulated robot and uses persistent files to continue across sessions. Includes a short video and the human–AI conversations, code, tests, and results behind the experiment.
 
-## Research experiments and their records
+### Research experiments and their records
 
 These repositories document early experiments with AI-assisted research. Their reports and artifacts remain available for inspection; their presence here is not an endorsement of every claim they contain.
 
