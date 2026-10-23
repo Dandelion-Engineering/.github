@@ -1,39 +1,42 @@
 ## About Dandelion Engineering
 
-Dandelion Engineering is a research and technology company with a single purpose: to do real research, and to turn what we learn from it into affordable technology that materially improves the lives of everyday people. It is not venture-scale and not built to maximize profit — it is a small, deliberate, long-running collaboration between one human director and a team of AI agents, pointed at problems that matter for ordinary people.
+Dandelion Engineering is a small research and technology company built around one human director working with AI agents. Its long-term aim is affordable technology that improves everyday people's lives. Its current work brings together practical engineering, research support, and experiments in human–AI collaboration.
 
-We publish the work, including when it fails. Negative results, dead ends, and our own mistakes get written down and shipped as readily as anything else.
+The approach is still evolving. Early projects gave AI agents considerable responsibility for planning and carrying out research. Those experiences exposed limits in both the agents and the frameworks built around them. The direction now is closer collaboration: people bringing questions, judgment, and domain knowledge, with AI helping investigate, implement, test, and document the work.
 
-- **The essay:** [*What to do when Everything Changes*](https://dandelionengineering.substack.com/p/what-to-do-when-everything-changes)
+The public repositories preserve that learning process, including unfinished projects, limitations, and approaches that did not work as hoped.
 
----
+## Research experiments and their records
 
-## Published research records
+These repositories document early experiments with AI-assisted research. Their reports and artifacts remain available for inspection; their presence here is not an endorsement of every claim they contain.
 
-Each repository below is the public record of one self-directed research question — no client, no customer, no commission. Some reached an answer; two were deliberately stopped before they did. Each repository states its own current status, the role AI agents played, and what evidence or reproducibility material is available.
+- **[EEG Distillation](https://github.com/Dandelion-Engineering/EEG-Distillation)**: an exploratory analysis of reconstructing withheld EEG channels from a four-electrode input drawn from research-grade recordings. Reports and reproduction materials are available, with limits on what the experiment establishes.
+- **[EEG to LFP](https://github.com/Dandelion-Engineering/EEG-to-LFP)**: an exploratory study reporting a negative result for its specified cross-subject scalp-EEG decoding test, alongside an exploratory analysis that did not validate.
+- **[Robot Structural Proprioception](https://github.com/Dandelion-Engineering/Robot-Structural-Proprioception)**: ended on August 23, 2026 without answering its research question. The working record remains public.
+- **[Hybrid Ground Truth Realism](https://github.com/Dandelion-Engineering/Hybrid-Ground-Truth-Realism)**: ended on August 23, 2026 before the planned spike-sorting experiment was run. Its planning and corrections remain public.
 
-- [**EEG Distillation**](https://github.com/Dandelion-Engineering/EEG-Distillation) — completed exploratory research on reconstructing research-grade EEG channels from a four-electrode, consumer-like input, including transfer to people the model had not seen.
-- [**EEG to LFP**](https://github.com/Dandelion-Engineering/EEG-to-LFP) — a completed, pre-registered negative result on whether scalp EEG carries a subject-transferable signature of memory load in the medial temporal lobe.
-- [**Robot Structural Proprioception**](https://github.com/Dandelion-Engineering/Robot-Structural-Proprioception) — ended on August 23, 2026 before answering its research question. The repository is preserved as a record of why the first-generation framework stopped converting effort into evidence.
-- [**Hybrid Ground Truth Realism**](https://github.com/Dandelion-Engineering/Hybrid-Ground-Truth-Realism) — ended on August 23, 2026 before any measurement was taken, for the same framework-level reason. Its planning and corrections remain public.
+**These projects are not peer-reviewed.** Reproducing reported numbers can help check an analysis, but does not by itself establish that the scientific question, methods, or interpretation are sound. The work needs domain-expert scrutiny before its conclusions are relied on.
 
-**None of this is peer-reviewed.** The completed studies are exploratory results, not settled conclusions, and the stopped projects do not answer their original questions. The way to trust any result is to check it, which is what each completed project's reproducibility material is for.
+## Collaboration tools
 
----
+- **[Collaboration Station 2.0](https://github.com/Dandelion-Engineering/Collaboration-Station-2.0)**: a general-purpose framework for keeping context, decisions, and work inspectable across long-running projects. It supports collaboration; it does not guarantee the quality of the work produced.
+- **[Collaboration Station (original)](https://github.com/Dandelion-Engineering/Collaboration-Station)**: the original general-purpose human–AI collaboration framework, now archived and preserved for reference.
+- **[Collaboration Station Research 2.0](https://github.com/Dandelion-Engineering/Collaboration-Station-Research-2.0)**: an experimental research-specific template. Dandelion Engineering considers it likely unsuitable for actual scientific research in its current form. It remains available as an experiment to learn from, not a recommended research workflow.
+- **[Collaboration Station Research](https://github.com/Dandelion-Engineering/Collaboration-Station-Research)**: the superseded first-generation research framework. Dandelion Engineering considers it likely unsuitable for actual scientific research in its current form. It is preserved as a record of the approach and its limitations.
 
-## How the work is run
+Two smaller repositories demonstrate collaboration on scientific data pipelines: [AccuSleePy](https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo) and [Vibration Batch Analysis](https://github.com/Dandelion-Engineering/Vibration-Batch-Analysis-Demo). They are engineering demonstrations rather than evidence that AI can independently conduct reliable research.
 
-- [**Collaboration Station Research 2.0**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research-2.0) — the current template for exploratory scientific research by a human director and AI agents. It was rebuilt for models that already verify their own work, without mandatory review cycles or approval gates. Early testing is promising for forward motion; reliability across projects is not yet established.
-- [**Collaboration Station 2.0**](https://github.com/Dandelion-Engineering/Collaboration-Station-2.0) — the general-purpose framework underneath Research 2.0, for long-running computer-based projects with durable context and lightweight coordination. Also in early testing.
-- [**Collaboration Station Research**](https://github.com/Dandelion-Engineering/Collaboration-Station-Research) — the superseded first-generation research framework, preserved so its history and the reason for the 2.0 redesign remain inspectable.
+## Essays
 
-Two smaller repositories show the collaboration pattern applied to scientific data pipelines, and are demonstrations rather than research projects: [AccuSleePy](https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo) and [vibration batch analysis](https://github.com/Dandelion-Engineering/Vibration-Batch-Analysis-Demo).
+Reflections on AI, engineering, and learning to work together.
 
----
+- [What to do when Everything Changes](https://dandelionengineering.substack.com/p/what-to-do-when-everything-changes)
 
 ## Contact
 
-Dandelion Engineering is run by Randy Crespo. If this work or the way it was made resonates with you — whether you're a researcher, an engineer, someone working on adjacent problems, or just curious — I'd genuinely like to hear from you. Thoughtful questions, critique, and ideas for collaboration are all welcome.
+Dandelion Engineering is run by Randy Crespo. Questions, critique, and conversations about research, engineering, workflow improvement, or collaboration are welcome.
 
-- **LinkedIn:** [linkedin.com/in/randy-crespo](https://www.linkedin.com/in/randy-crespo)
-- **Email:** [randy@dandelionengineering.com](mailto:randy@dandelionengineering.com)
+- [LinkedIn](https://www.linkedin.com/in/randy-crespo)
+- Email: randy@dandelionengineering.com
+
+*This profile text was drafted by AI. Updated October 2026.*
