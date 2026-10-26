@@ -8,7 +8,7 @@ The public repositories preserve that learning process, including unfinished pro
 
 ### Essays
 
-- [Science, such a fun mess](https://dandelionengineering.substack.com/p/science-such-a-fun-mess)
+- [Science, such a fun mess!](https://dandelionengineering.substack.com/p/science-such-a-fun-mess)
 - [What to do when Everything Changes](https://dandelionengineering.substack.com/p/what-to-do-when-everything-changes)
 
 ## Projects
