@@ -6,6 +6,11 @@ The approach is still evolving. Early projects gave AI agents considerable respo
 
 The public repositories preserve that learning process, including unfinished projects, limitations, and approaches that did not work as hoped.
 
+### Essays
+
+- [Science, such a fun mess](https://dandelionengineering.substack.com/p/science-such-a-fun-mess)
+- [What to do when Everything Changes](https://dandelionengineering.substack.com/p/what-to-do-when-everything-changes)
+
 ## Projects
 
 **[LLMs in Robotics: A Snapshot](https://github.com/Dandelion-Engineering/LLMs-in-Robotics-A-Snapshot)**: An AI agent controls a simulated robot and uses persistent files to continue across sessions. Includes a short video and the human–AI conversations, code, tests, and results behind the experiment.
@@ -29,12 +34,6 @@ These repositories document early experiments with AI-assisted research. Their r
 - **[Collaboration Station Research](https://github.com/Dandelion-Engineering/Collaboration-Station-Research)**: the superseded first-generation research framework. Dandelion Engineering considers it likely unsuitable for actual scientific research in its current form. It is preserved as a record of the approach and its limitations.
 
 Two smaller repositories demonstrate collaboration on scientific data pipelines: [AccuSleePy](https://github.com/Dandelion-Engineering/AccuSleePy-Collaboration-Station-Demo) and [Vibration Batch Analysis](https://github.com/Dandelion-Engineering/Vibration-Batch-Analysis-Demo). They are engineering demonstrations rather than evidence that AI can independently conduct reliable research.
-
-## Essays
-
-Reflections on AI, engineering, and learning to work together.
-
-- [What to do when Everything Changes](https://dandelionengineering.substack.com/p/what-to-do-when-everything-changes)
 
 ## Contact
 
