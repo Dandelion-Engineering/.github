@@ -13,6 +13,8 @@ The public repositories preserve that learning process, including unfinished pro
 
 ## Projects
 
+**[Codex Robot Arm Design](https://github.com/Dandelion-Engineering/Codex-Robot-Arm-Design)**: Codex designed a benchtop robot arm in FreeCAD, sourced parts, and ran structural analyses. Includes editable CAD and FEM files and the original prompts.
+
 **[LLMs in Robotics: A Snapshot](https://github.com/Dandelion-Engineering/LLMs-in-Robotics-A-Snapshot)**: An AI agent controls a simulated robot and uses persistent files to continue across sessions. Includes a short video and the human–AI conversations, code, tests, and results behind the experiment.
 
 ### Research experiments and their records
